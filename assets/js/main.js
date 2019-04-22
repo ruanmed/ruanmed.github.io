@@ -54,17 +54,17 @@ jQuery(document).ready(function($) {
         // inner template for each entry
         // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
         // valid values: any string
-        entryTemplate: '<div class="item"><h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fas fa-external-link-alt"></i>Read more</a></div></div>'
+        entryTemplate: '<div class="item"><h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fas fa-external-link-alt"></i>Leia mais</a></div></div>'
         
         }
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "IonicaBizau");
+    new GitHubCalendar("#github-graph", "ruanmed");
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "mdo", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "ruanmed", selector: "#ghfeed" });
 
 
 });
